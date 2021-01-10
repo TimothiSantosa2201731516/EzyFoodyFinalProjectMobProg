@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#98FB98"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24dp"
+        android:textColor="#FFFAF0"
+        android:background="#228B22"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_myOrder"
+        android:text="MY ORDER "
+        android:textColor="#FFFAF0"
+        android:layout_gravity="right"
+        android:onClick="onMyOrder"
+        android:backgroundTint="#228B22"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/NasiGoreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Goreng"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderNasiGoreng"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/NasiGorengPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Nasi Goreng"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/NasiUduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Uduk"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderNasiUduk"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/NasiUdukPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Nasi Uduk"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/NasiKuning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Kuning"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderNasiKuning"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/NasiKuningPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Nasi Kuning"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/NasiCampur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Campur"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderNasiCampur"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/NasiCampurPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Nasi Campur"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+</LinearLayout>

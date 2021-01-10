@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#98FB98"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24dp"
+        android:textColor="#FFFAF0"
+        android:background="#228B22"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_myOrder"
+        android:text="MY ORDER "
+        android:textColor="#FFFAF0"
+        android:layout_gravity="right"
+        android:onClick="onMyOrder"
+        android:backgroundTint="#228B22"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_maps"
+        android:text="MAPS "
+        android:textColor="#FFFAF0"
+        android:layout_gravity="right"
+        android:onClick="onMaps"
+        android:backgroundTint="#228B22"/>
+
+    <TextView
+        android:id="@+id/drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRINKS"
+        android:layout_gravity="center"
+        android:onClick="onDisplayDrinksMenu"
+        android:textColor="#2F4F4F"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click DRINKS"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/snacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SNACKS"
+        android:onClick="onDisplaySnacksMenu"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click SNACKS"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/foods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOODS"
+        android:onClick="onDisplayFoodsMenu"
+        android:layout_gravity="center"
+        android:textColor="	#2F4F4F"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click FOODS"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/topup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TOP UP"
+        android:onClick="onDisplayTopUpMenu"
+        android:textColor="#2F4F4F"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click TOP UP"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

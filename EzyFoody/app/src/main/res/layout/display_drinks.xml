@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#98FB98"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24dp"
+        android:textColor="#FFFAF0"
+        android:background="#228B22"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_myOrder"
+        android:text="MY ORDER "
+        android:textColor="#FFFAF0"
+        android:layout_gravity="right"
+        android:onClick="onMyOrder"
+        android:backgroundTint="#228B22"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/AirMineral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Mineral"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderAirMineral"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/AirMineralPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Air Mineral"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/JusApel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Apel"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderJusApel"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/JusApelPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Jus Apel"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/JusMangga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Mangga"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderJusMangga"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/JusManggaPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Jus Mangga"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/JusAlpukat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jus Alpukat"
+        android:layout_gravity="center"
+        android:onClick="onPlaceOrderJusAlpukat"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price in (Rp)"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/JusAlpukatPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:layout_gravity="center"
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click Jus Alpukat"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+</LinearLayout>
